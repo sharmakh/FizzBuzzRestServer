@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "e33356df-81f7-48f9-99b3-0582b3ca02d0",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23478213"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/restserver/fizzbuzz?int1=3&int2=2&limit=1000&str1=fiz&str2=buzz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/restserver/fizzbuzz?int1=3&int2=2&limit=1000&str1=fiz&str2=buzz",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restserver",
+						"fizzbuzz"
+					],
+					"query": [
+						{
+							"key": "int1",
+							"value": "3"
+						},
+						{
+							"key": "int2",
+							"value": "2"
+						},
+						{
+							"key": "limit",
+							"value": "1000"
+						},
+						{
+							"key": "str1",
+							"value": "fiz"
+						},
+						{
+							"key": "str2",
+							"value": "buzz"
+						}
+					]
+				},
+				"description": "FizzBuzz"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restserver/statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/restserver/statistics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restserver",
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
